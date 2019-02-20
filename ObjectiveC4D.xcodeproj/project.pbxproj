@@ -11,6 +11,10 @@
 		4E5525F722187A29009FCE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5525F622187A29009FCE71 /* main.m */; };
 		4E552603221883C0009FCE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E552602221883C0009FCE71 /* main.m */; };
 		4E55260E221BCB12009FCE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E55260D221BCB12009FCE71 /* main.m */; };
+		4EF16A1B221DDE7100ECC087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A1A221DDE7100ECC087 /* main.m */; };
+		4EF16A20221DE16F00ECC087 /* Bitmasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A1F221DE16F00ECC087 /* Bitmasks.m */; };
+		4EF16A29221DE6AA00ECC087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A28221DE6AA00ECC087 /* main.m */; };
+		4EF16A2F221DEF5800ECC087 /* DateCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A2E221DEF5800ECC087 /* DateCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +54,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		4EF16A16221DDE7100ECC087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4EF16A24221DE6AA00ECC087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +85,14 @@
 		4E55260B221BCB12009FCE71 /* 3.DT-int */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3.DT-int"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E55260D221BCB12009FCE71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E552612221BCD52009FCE71 /* integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = integer.h; sourceTree = "<group>"; };
+		4EF16A18221DDE7100ECC087 /* 4. Enum&Bitmasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Enum&Bitmasks"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF16A1A221DDE7100ECC087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EF16A1F221DE16F00ECC087 /* Bitmasks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitmasks.m; sourceTree = "<group>"; };
+		4EF16A21221DE17A00ECC087 /* Bitmasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bitmasks.h; sourceTree = "<group>"; };
+		4EF16A26221DE6AA00ECC087 /* 5. Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5. Classes"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF16A28221DE6AA00ECC087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EF16A2D221DEF5800ECC087 /* DateCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateCalculator.h; sourceTree = "<group>"; };
+		4EF16A2E221DEF5800ECC087 /* DateCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +124,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EF16A15221DDE7100ECC087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF16A23221DE6AA00ECC087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -104,6 +148,8 @@
 				4E5525F522187A29009FCE71 /* 1.DT-BOOL */,
 				4E552601221883C0009FCE71 /* 2.DT-float */,
 				4E55260C221BCB12009FCE71 /* 3.DT-int */,
+				4EF16A19221DDE7100ECC087 /* 4. Enum&Bitmasks */,
+				4EF16A27221DE6AA00ECC087 /* 5. Classes */,
 				4E5525DC2218793B009FCE71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -115,6 +161,8 @@
 				4E5525F422187A29009FCE71 /* 1.DT-BOOL */,
 				4E552600221883C0009FCE71 /* 2.DT-float */,
 				4E55260B221BCB12009FCE71 /* 3.DT-int */,
+				4EF16A18221DDE7100ECC087 /* 4. Enum&Bitmasks */,
+				4EF16A26221DE6AA00ECC087 /* 5. Classes */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,6 +199,26 @@
 				4E552612221BCD52009FCE71 /* integer.h */,
 			);
 			path = "3.DT-int";
+			sourceTree = "<group>";
+		};
+		4EF16A19221DDE7100ECC087 /* 4. Enum&Bitmasks */ = {
+			isa = PBXGroup;
+			children = (
+				4EF16A1A221DDE7100ECC087 /* main.m */,
+				4EF16A1F221DE16F00ECC087 /* Bitmasks.m */,
+				4EF16A21221DE17A00ECC087 /* Bitmasks.h */,
+			);
+			path = "4. Enum&Bitmasks";
+			sourceTree = "<group>";
+		};
+		4EF16A27221DE6AA00ECC087 /* 5. Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EF16A28221DE6AA00ECC087 /* main.m */,
+				4EF16A2D221DEF5800ECC087 /* DateCalculator.h */,
+				4EF16A2E221DEF5800ECC087 /* DateCalculator.m */,
+			);
+			path = "5. Classes";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +292,40 @@
 			productReference = 4E55260B221BCB12009FCE71 /* 3.DT-int */;
 			productType = "com.apple.product-type.tool";
 		};
+		4EF16A17221DDE7100ECC087 /* 4. Enum&Bitmasks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF16A1E221DDE7100ECC087 /* Build configuration list for PBXNativeTarget "4. Enum&Bitmasks" */;
+			buildPhases = (
+				4EF16A14221DDE7100ECC087 /* Sources */,
+				4EF16A15221DDE7100ECC087 /* Frameworks */,
+				4EF16A16221DDE7100ECC087 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4. Enum&Bitmasks";
+			productName = "4. Enum&Bitmasks";
+			productReference = 4EF16A18221DDE7100ECC087 /* 4. Enum&Bitmasks */;
+			productType = "com.apple.product-type.tool";
+		};
+		4EF16A25221DE6AA00ECC087 /* 5. Classes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF16A2A221DE6AA00ECC087 /* Build configuration list for PBXNativeTarget "5. Classes" */;
+			buildPhases = (
+				4EF16A22221DE6AA00ECC087 /* Sources */,
+				4EF16A23221DE6AA00ECC087 /* Frameworks */,
+				4EF16A24221DE6AA00ECC087 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5. Classes";
+			productName = "5. Classes";
+			productReference = 4EF16A26221DE6AA00ECC087 /* 5. Classes */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -245,6 +347,12 @@
 					4E55260A221BCB12009FCE71 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4EF16A17221DDE7100ECC087 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4EF16A25221DE6AA00ECC087 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 4E5525D62218793B009FCE71 /* Build configuration list for PBXProject "ObjectiveC4D" */;
@@ -263,6 +371,8 @@
 				4E5525F322187A29009FCE71 /* 1.DT-BOOL */,
 				4E5525FF221883C0009FCE71 /* 2.DT-float */,
 				4E55260A221BCB12009FCE71 /* 3.DT-int */,
+				4EF16A17221DDE7100ECC087 /* 4. Enum&Bitmasks */,
+				4EF16A25221DE6AA00ECC087 /* 5. Classes */,
 			);
 		};
 /* End PBXProject section */
@@ -297,6 +407,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E55260E221BCB12009FCE71 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF16A14221DDE7100ECC087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF16A1B221DDE7100ECC087 /* main.m in Sources */,
+				4EF16A20221DE16F00ECC087 /* Bitmasks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF16A22221DE6AA00ECC087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF16A29221DE6AA00ECC087 /* main.m in Sources */,
+				4EF16A2F221DEF5800ECC087 /* DateCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +614,42 @@
 			};
 			name = Release;
 		};
+		4EF16A1C221DDE7100ECC087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EF16A1D221DDE7100ECC087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EF16A2B221DE6AA00ECC087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EF16A2C221DE6AA00ECC087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -530,6 +694,24 @@
 			buildConfigurations = (
 				4E552610221BCB12009FCE71 /* Debug */,
 				4E552611221BCB12009FCE71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF16A1E221DDE7100ECC087 /* Build configuration list for PBXNativeTarget "4. Enum&Bitmasks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF16A1C221DDE7100ECC087 /* Debug */,
+				4EF16A1D221DDE7100ECC087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF16A2A221DE6AA00ECC087 /* Build configuration list for PBXNativeTarget "5. Classes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF16A2B221DE6AA00ECC087 /* Debug */,
+				4EF16A2C221DE6AA00ECC087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
