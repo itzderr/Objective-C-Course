@@ -6,25 +6,14 @@
 //  Copyright © 2019 Derrick Park. All rights reserved.
 //
 
-/*
- Property Attributes
- - strong : strong pointer (increment ref count +1)
- - weak : weak pointer (no ref count)
- - assign (default): primitive types
- - nonatomic : non thread safety (use this, no overhead)
- - atomic (default) : thread safety feature
- - copy : copying contents
- - readonly, readwrite (default)
- - getter=name
- - setter=name
- */
+
 
 #import <Foundation/Foundation.h>
 
 @interface DateCalculator : NSObject
 // 1. public properties
 // Property Syntax
-//@property (attributes, ...) type name;
+// @property (attributes, ...) type name;
 @property (assign) float myAge;
 @property (nonatomic, strong) NSString *name;
 // nonatomic - non thread safety (more performant)

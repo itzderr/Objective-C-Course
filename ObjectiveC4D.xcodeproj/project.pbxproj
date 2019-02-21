@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3756E22220B0A500D20BB2 /* NSString+WaterMark.h in Sources */ = {isa = PBXBuildFile; fileRef = 4E37A03D2220A40B00E34D84 /* NSString+WaterMark.h */; };
+		4E3756E32220B0A500D20BB2 /* NSString+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E37A03E2220A40B00E34D84 /* NSString+WaterMark.m */; };
+		4E37A03F2220A40B00E34D84 /* NSString+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E37A03E2220A40B00E34D84 /* NSString+WaterMark.m */; };
 		4E5525DF2218793B009FCE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5525DE2218793B009FCE71 /* main.m */; };
 		4E5525F722187A29009FCE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5525F622187A29009FCE71 /* main.m */; };
 		4E552603221883C0009FCE71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E552602221883C0009FCE71 /* main.m */; };
@@ -15,6 +18,11 @@
 		4EF16A20221DE16F00ECC087 /* Bitmasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A1F221DE16F00ECC087 /* Bitmasks.m */; };
 		4EF16A29221DE6AA00ECC087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A28221DE6AA00ECC087 /* main.m */; };
 		4EF16A2F221DEF5800ECC087 /* DateCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A2E221DEF5800ECC087 /* DateCalculator.m */; };
+		4EF16A37221E102900ECC087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A36221E102900ECC087 /* main.m */; };
+		4EF16A3F221F4CCB00ECC087 /* Boss.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A3E221F4CCB00ECC087 /* Boss.m */; };
+		4EF16A42221F4D0700ECC087 /* Miranda.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A41221F4D0700ECC087 /* Miranda.m */; };
+		4EF16A45221F4EB600ECC087 /* Jack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A44221F4EB600ECC087 /* Jack.m */; };
+		4EF16A4D221F6BEE00ECC087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A4C221F6BEE00ECC087 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -72,19 +80,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		4EF16A32221E102900ECC087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4EF16A48221F6BEE00ECC087 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E3756E42220B5FB00D20BB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4E37A03522207CA100E34D84 /* Float.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Float.md; sourceTree = "<group>"; };
+		4E37A03622208CE200E34D84 /* Bool.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Bool.md; sourceTree = "<group>"; };
+		4E37A0372220925600E34D84 /* Integer.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Integer.md; sourceTree = "<group>"; };
+		4E37A0382220968B00E34D84 /* EnumBitmask.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EnumBitmask.md; sourceTree = "<group>"; };
+		4E37A03D2220A40B00E34D84 /* NSString+WaterMark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+WaterMark.h"; sourceTree = "<group>"; };
+		4E37A03E2220A40B00E34D84 /* NSString+WaterMark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+WaterMark.m"; sourceTree = "<group>"; };
 		4E5525DB2218793B009FCE71 /* ObjectiveC4D */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveC4D; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5525DE2218793B009FCE71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E5525F422187A29009FCE71 /* 1.DT-BOOL */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.DT-BOOL"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E5525F622187A29009FCE71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E5525FB22187B07009FCE71 /* BoolExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BoolExample.h; sourceTree = "<group>"; };
 		4E552600221883C0009FCE71 /* 2.DT-float */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.DT-float"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E552602221883C0009FCE71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4E55260B221BCB12009FCE71 /* 3.DT-int */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3.DT-int"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E55260D221BCB12009FCE71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E552612221BCD52009FCE71 /* integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = integer.h; sourceTree = "<group>"; };
 		4EF16A18221DDE7100ECC087 /* 4. Enum&Bitmasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Enum&Bitmasks"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF16A1A221DDE7100ECC087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EF16A1F221DE16F00ECC087 /* Bitmasks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bitmasks.m; sourceTree = "<group>"; };
@@ -93,6 +124,20 @@
 		4EF16A28221DE6AA00ECC087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EF16A2D221DEF5800ECC087 /* DateCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DateCalculator.h; sourceTree = "<group>"; };
 		4EF16A2E221DEF5800ECC087 /* DateCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DateCalculator.m; sourceTree = "<group>"; };
+		4EF16A34221E102900ECC087 /* 6. Protocols&DelegatePattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6. Protocols&DelegatePattern"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF16A36221E102900ECC087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EF16A3B221F47C800ECC087 /* Properties.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Properties.md; sourceTree = "<group>"; };
+		4EF16A3C221F49CE00ECC087 /* Protocol_Delegate.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Protocol_Delegate.md; sourceTree = "<group>"; };
+		4EF16A3D221F4CCB00ECC087 /* Boss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Boss.h; sourceTree = "<group>"; };
+		4EF16A3E221F4CCB00ECC087 /* Boss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Boss.m; sourceTree = "<group>"; };
+		4EF16A40221F4D0700ECC087 /* Miranda.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Miranda.h; sourceTree = "<group>"; };
+		4EF16A41221F4D0700ECC087 /* Miranda.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Miranda.m; sourceTree = "<group>"; };
+		4EF16A43221F4EB600ECC087 /* Jack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jack.h; sourceTree = "<group>"; };
+		4EF16A44221F4EB600ECC087 /* Jack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jack.m; sourceTree = "<group>"; };
+		4EF16A4A221F6BEE00ECC087 /* 7. Categories */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7. Categories"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EF16A4C221F6BEE00ECC087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EF16A51221F6BFE00ECC087 /* Categories.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Categories.md; sourceTree = "<group>"; };
+		4EF16A52221F780800ECC087 /* Runtime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Runtime.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,18 +183,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EF16A31221E102900ECC087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF16A47221F6BEE00ECC087 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		4E5525D22218793B009FCE71 = {
 			isa = PBXGroup;
 			children = (
+				4E3756E42220B5FB00D20BB2 /* README.md */,
 				4E5525DD2218793B009FCE71 /* ObjectiveC4D */,
 				4E5525F522187A29009FCE71 /* 1.DT-BOOL */,
 				4E552601221883C0009FCE71 /* 2.DT-float */,
 				4E55260C221BCB12009FCE71 /* 3.DT-int */,
-				4EF16A19221DDE7100ECC087 /* 4. Enum&Bitmasks */,
-				4EF16A27221DE6AA00ECC087 /* 5. Classes */,
+				4EF16A19221DDE7100ECC087 /* 4.Enum&Bitmasks */,
+				4EF16A27221DE6AA00ECC087 /* 5.Classes */,
+				4EF16A35221E102900ECC087 /* 6.Protocols&DelegatePattern */,
+				4EF16A4B221F6BEE00ECC087 /* 7.Categories */,
 				4E5525DC2218793B009FCE71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -163,6 +225,8 @@
 				4E55260B221BCB12009FCE71 /* 3.DT-int */,
 				4EF16A18221DDE7100ECC087 /* 4. Enum&Bitmasks */,
 				4EF16A26221DE6AA00ECC087 /* 5. Classes */,
+				4EF16A34221E102900ECC087 /* 6. Protocols&DelegatePattern */,
+				4EF16A4A221F6BEE00ECC087 /* 7. Categories */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -171,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				4E5525DE2218793B009FCE71 /* main.m */,
+				4EF16A52221F780800ECC087 /* Runtime.md */,
 			);
 			path = ObjectiveC4D;
 			sourceTree = "<group>";
@@ -179,7 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				4E5525F622187A29009FCE71 /* main.m */,
-				4E5525FB22187B07009FCE71 /* BoolExample.h */,
+				4E37A03622208CE200E34D84 /* Bool.md */,
 			);
 			path = "1.DT-BOOL";
 			sourceTree = "<group>";
@@ -188,6 +253,7 @@
 			isa = PBXGroup;
 			children = (
 				4E552602221883C0009FCE71 /* main.m */,
+				4E37A03522207CA100E34D84 /* Float.md */,
 			);
 			path = "2.DT-float";
 			sourceTree = "<group>";
@@ -196,29 +262,57 @@
 			isa = PBXGroup;
 			children = (
 				4E55260D221BCB12009FCE71 /* main.m */,
-				4E552612221BCD52009FCE71 /* integer.h */,
+				4E37A0372220925600E34D84 /* Integer.md */,
 			);
 			path = "3.DT-int";
 			sourceTree = "<group>";
 		};
-		4EF16A19221DDE7100ECC087 /* 4. Enum&Bitmasks */ = {
+		4EF16A19221DDE7100ECC087 /* 4.Enum&Bitmasks */ = {
 			isa = PBXGroup;
 			children = (
 				4EF16A1A221DDE7100ECC087 /* main.m */,
 				4EF16A1F221DE16F00ECC087 /* Bitmasks.m */,
 				4EF16A21221DE17A00ECC087 /* Bitmasks.h */,
+				4E37A0382220968B00E34D84 /* EnumBitmask.md */,
 			);
-			path = "4. Enum&Bitmasks";
+			path = "4.Enum&Bitmasks";
 			sourceTree = "<group>";
 		};
-		4EF16A27221DE6AA00ECC087 /* 5. Classes */ = {
+		4EF16A27221DE6AA00ECC087 /* 5.Classes */ = {
 			isa = PBXGroup;
 			children = (
 				4EF16A28221DE6AA00ECC087 /* main.m */,
 				4EF16A2D221DEF5800ECC087 /* DateCalculator.h */,
 				4EF16A2E221DEF5800ECC087 /* DateCalculator.m */,
+				4EF16A3B221F47C800ECC087 /* Properties.md */,
 			);
-			path = "5. Classes";
+			path = 5.Classes;
+			sourceTree = "<group>";
+		};
+		4EF16A35221E102900ECC087 /* 6.Protocols&DelegatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				4EF16A36221E102900ECC087 /* main.m */,
+				4EF16A3C221F49CE00ECC087 /* Protocol_Delegate.md */,
+				4EF16A3D221F4CCB00ECC087 /* Boss.h */,
+				4EF16A3E221F4CCB00ECC087 /* Boss.m */,
+				4EF16A40221F4D0700ECC087 /* Miranda.h */,
+				4EF16A41221F4D0700ECC087 /* Miranda.m */,
+				4EF16A43221F4EB600ECC087 /* Jack.h */,
+				4EF16A44221F4EB600ECC087 /* Jack.m */,
+			);
+			path = "6.Protocols&DelegatePattern";
+			sourceTree = "<group>";
+		};
+		4EF16A4B221F6BEE00ECC087 /* 7.Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4EF16A4C221F6BEE00ECC087 /* main.m */,
+				4EF16A51221F6BFE00ECC087 /* Categories.md */,
+				4E37A03D2220A40B00E34D84 /* NSString+WaterMark.h */,
+				4E37A03E2220A40B00E34D84 /* NSString+WaterMark.m */,
+			);
+			path = 7.Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,6 +420,40 @@
 			productReference = 4EF16A26221DE6AA00ECC087 /* 5. Classes */;
 			productType = "com.apple.product-type.tool";
 		};
+		4EF16A33221E102900ECC087 /* 6. Protocols&DelegatePattern */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF16A3A221E102900ECC087 /* Build configuration list for PBXNativeTarget "6. Protocols&DelegatePattern" */;
+			buildPhases = (
+				4EF16A30221E102900ECC087 /* Sources */,
+				4EF16A31221E102900ECC087 /* Frameworks */,
+				4EF16A32221E102900ECC087 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6. Protocols&DelegatePattern";
+			productName = "6. Protocols&DelegatePattern";
+			productReference = 4EF16A34221E102900ECC087 /* 6. Protocols&DelegatePattern */;
+			productType = "com.apple.product-type.tool";
+		};
+		4EF16A49221F6BEE00ECC087 /* 7. Categories */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EF16A50221F6BEE00ECC087 /* Build configuration list for PBXNativeTarget "7. Categories" */;
+			buildPhases = (
+				4EF16A46221F6BEE00ECC087 /* Sources */,
+				4EF16A47221F6BEE00ECC087 /* Frameworks */,
+				4EF16A48221F6BEE00ECC087 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7. Categories";
+			productName = "7. Categories";
+			productReference = 4EF16A4A221F6BEE00ECC087 /* 7. Categories */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -353,6 +481,12 @@
 					4EF16A25221DE6AA00ECC087 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4EF16A33221E102900ECC087 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4EF16A49221F6BEE00ECC087 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 4E5525D62218793B009FCE71 /* Build configuration list for PBXProject "ObjectiveC4D" */;
@@ -373,6 +507,8 @@
 				4E55260A221BCB12009FCE71 /* 3.DT-int */,
 				4EF16A17221DDE7100ECC087 /* 4. Enum&Bitmasks */,
 				4EF16A25221DE6AA00ECC087 /* 5. Classes */,
+				4EF16A33221E102900ECC087 /* 6. Protocols&DelegatePattern */,
+				4EF16A49221F6BEE00ECC087 /* 7. Categories */,
 			);
 		};
 /* End PBXProject section */
@@ -383,6 +519,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E5525DF2218793B009FCE71 /* main.m in Sources */,
+				4E37A03F2220A40B00E34D84 /* NSString+WaterMark.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +562,27 @@
 			files = (
 				4EF16A29221DE6AA00ECC087 /* main.m in Sources */,
 				4EF16A2F221DEF5800ECC087 /* DateCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF16A30221E102900ECC087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EF16A42221F4D0700ECC087 /* Miranda.m in Sources */,
+				4EF16A3F221F4CCB00ECC087 /* Boss.m in Sources */,
+				4EF16A45221F4EB600ECC087 /* Jack.m in Sources */,
+				4EF16A37221E102900ECC087 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4EF16A46221F6BEE00ECC087 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3756E22220B0A500D20BB2 /* NSString+WaterMark.h in Sources */,
+				4E3756E32220B0A500D20BB2 /* NSString+WaterMark.m in Sources */,
+				4EF16A4D221F6BEE00ECC087 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -650,6 +808,42 @@
 			};
 			name = Release;
 		};
+		4EF16A38221E102900ECC087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EF16A39221E102900ECC087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4EF16A4E221F6BEE00ECC087 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4EF16A4F221F6BEE00ECC087 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -712,6 +906,24 @@
 			buildConfigurations = (
 				4EF16A2B221DE6AA00ECC087 /* Debug */,
 				4EF16A2C221DE6AA00ECC087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF16A3A221E102900ECC087 /* Build configuration list for PBXNativeTarget "6. Protocols&DelegatePattern" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF16A38221E102900ECC087 /* Debug */,
+				4EF16A39221E102900ECC087 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EF16A50221F6BEE00ECC087 /* Build configuration list for PBXNativeTarget "7. Categories" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EF16A4E221F6BEE00ECC087 /* Debug */,
+				4EF16A4F221F6BEE00ECC087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

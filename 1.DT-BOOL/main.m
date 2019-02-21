@@ -6,15 +6,6 @@
 //  Copyright © 2019 Derrick Park. All rights reserved.
 //
 
-/*
- Booleans
- Represents true / false values
- Objective-C does support bool type from the C programming (C99) standard (true/false)
- But Apple Objective-C framewords use BOOL (YES/NO)
- 
- BEST practice: use BOOL for Objective-C code
- */
-
 #import <Foundation/Foundation.h>
 
 // challenge

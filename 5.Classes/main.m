@@ -19,13 +19,14 @@
 
 int main(int argc, const char * argv[]) {
 	@autoreleasepool {
+//		* Default initializer
 //		DateCalculator *calc = [DateCalculator new];
 //		DateCalculator *calc = [[DateCalculator alloc] init];
 		DateCalculator *calc = [[DateCalculator alloc] initWithMyAge:40 AndName:@"Johny"];
 		
 		
 		NSLog(@"Age: %f", [calc myAge]);
-		NSLog(@"Age: %f", calc.myAge); // Use . notation only when you're using property
+		NSLog(@"Age: %f", calc.myAge); // Use .(dot) notation only when you're using property
 		if ([calc canDateAPersonWithAge:18]) {
 			NSLog(@"YES!");
 		} else {
