@@ -16,3 +16,7 @@
 - [Notes](./6.Protocols&DelegatePattern/Protocol_Delegate.md)
 ## 7. [Categories](./7.Categories)
 - [Notes](./7.Categories/Categories.md)
+## 8. [Manual Memory Managements](./8.MemoryManagement(Manual))
+- [Notes](./8.MemoryManagement(Manual)/ManualMemoryManagement.md)
+## 9. [ARC](./9.ARC)
+- [Notes](./9.ARC/ARC.md)
