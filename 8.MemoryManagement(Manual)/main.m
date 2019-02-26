@@ -17,10 +17,12 @@ int main(int argc, const char * argv[]) {
 		Person *leo = [[Person alloc] initWithName:@"Leo"];
 		// derr --> @Person(@"Derrick")    +1
 		// leo  --> @Person(@"Leo")        +1
+		
 		Sweater *navySweater = [[Sweater alloc] initWithSweaterType:SweaterTypeNavy];
 		Sweater *blackSweater = [[Sweater alloc] initWithSweaterType:SweaterTypeBlack];
 		// navySweater   --> @Sweater(SweaterTypeNavy)         +1
 		// blackSweater  --> @Sweater(SweaterTypeBlack)        +1
+		
 		derr.sweater = blackSweater;
 		leo.sweater = navySweater;
 		// sweater property(retain) will increment the ref count
@@ -36,18 +38,16 @@ int main(int argc, const char * argv[]) {
 		// derr.sweater   -->
 		//                    @Sweater(SweaterTypeBlack)       +2
 		// leo.sweater    -->
-		
 		derr.sweater = nil;
 		// derr.sweater   --> nil
 		// leo.sweater    --> @Sweater(SweaterTypeBlack)       +1
-		
+
 		NSString *quote = [derr quote]; // autorelease object
 		NSLog(@"Quote: %@", quote);
-		
+
 		// clean up derr and leo (memory leak, check product -> profile
-//		[derr release];
-//		[leo release];
-		
+		[derr release];
+		[leo release];
 		
 	}
 	

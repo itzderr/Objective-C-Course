@@ -9,19 +9,19 @@
 ### Retain Cycles
 - When two objects and their properties have strong pointers pointing at each other.
 ```
+								   strong
+                -------->
+@Sweater.owner	            @Person.sweater	
+                <--------
 									 strong
-					       -------->
-@Sweater.owner			         @Person.sweater	
-					       <--------
-						       strong
 ```
 - Use weak pointer for one of the objects to solve this problem.
 ```
                   weak
                 -------->
-@Sweater.owner			         @Person.sweater	
+@Sweater.owner	            @Person.sweater	
                 <--------
-                 strong
+                  strong
 ```
 
 ### Readings (Articles)
