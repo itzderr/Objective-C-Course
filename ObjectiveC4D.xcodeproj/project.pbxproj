@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0CCE752227B53200F57724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCE742227B53200F57724 /* main.m */; };
+		4E0CCE7C2227B8CC00F57724 /* BlockTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0CCE7B2227B8CC00F57724 /* BlockTester.m */; };
 		4E3756E22220B0A500D20BB2 /* NSString+WaterMark.h in Sources */ = {isa = PBXBuildFile; fileRef = 4E37A03D2220A40B00E34D84 /* NSString+WaterMark.h */; };
 		4E3756E32220B0A500D20BB2 /* NSString+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E37A03E2220A40B00E34D84 /* NSString+WaterMark.m */; };
 		4E37A03F2220A40B00E34D84 /* NSString+WaterMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E37A03E2220A40B00E34D84 /* NSString+WaterMark.m */; };
@@ -32,6 +34,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4E0CCE702227B53200F57724 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		4E5525D92218793B009FCE71 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,6 +136,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E0CCE722227B53200F57724 /* 10.Blocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 10.Blocks; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E0CCE742227B53200F57724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E0CCE792227B54500F57724 /* Blocks.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Blocks.md; sourceTree = "<group>"; };
+		4E0CCE7A2227B8CC00F57724 /* BlockTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockTester.h; sourceTree = "<group>"; };
+		4E0CCE7B2227B8CC00F57724 /* BlockTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlockTester.m; sourceTree = "<group>"; };
 		4E3756E42220B5FB00D20BB2 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4E37A03522207CA100E34D84 /* Float.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Float.md; sourceTree = "<group>"; };
 		4E37A03622208CE200E34D84 /* Bool.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Bool.md; sourceTree = "<group>"; };
@@ -179,6 +195,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4E0CCE6F2227B53200F57724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E5525D82218793B009FCE71 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -252,6 +275,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E0CCE732227B53200F57724 /* 10.Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CCE742227B53200F57724 /* main.m */,
+				4E0CCE792227B54500F57724 /* Blocks.md */,
+				4E0CCE7A2227B8CC00F57724 /* BlockTester.h */,
+				4E0CCE7B2227B8CC00F57724 /* BlockTester.m */,
+			);
+			path = 10.Blocks;
+			sourceTree = "<group>";
+		};
 		4E5525D22218793B009FCE71 = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +300,7 @@
 				4EF16A4B221F6BEE00ECC087 /* 7.Categories */,
 				4E8728572224995E00B37794 /* 8.MemoryManagement(Manual) */,
 				4E8728692224B95800B37794 /* 9.ARC */,
+				4E0CCE732227B53200F57724 /* 10.Blocks */,
 				4E5525DC2218793B009FCE71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -283,6 +318,7 @@
 				4EF16A4A221F6BEE00ECC087 /* 7. Categories */,
 				4E8728562224995E00B37794 /* 8.MemoryManagement(Manual) */,
 				4E8728682224B95800B37794 /* 9.ARC */,
+				4E0CCE722227B53200F57724 /* 10.Blocks */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -400,6 +436,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4E0CCE712227B53200F57724 /* 10.Blocks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E0CCE782227B53200F57724 /* Build configuration list for PBXNativeTarget "10.Blocks" */;
+			buildPhases = (
+				4E0CCE6E2227B53200F57724 /* Sources */,
+				4E0CCE6F2227B53200F57724 /* Frameworks */,
+				4E0CCE702227B53200F57724 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 10.Blocks;
+			productName = 10.Blocks;
+			productReference = 4E0CCE722227B53200F57724 /* 10.Blocks */;
+			productType = "com.apple.product-type.tool";
+		};
 		4E5525DA2218793B009FCE71 /* ObjectiveC4D */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E5525E22218793B009FCE71 /* Build configuration list for PBXNativeTarget "ObjectiveC4D" */;
@@ -579,6 +632,9 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Derrick Park";
 				TargetAttributes = {
+					4E0CCE712227B53200F57724 = {
+						CreatedOnToolsVersion = 10.1;
+					};
 					4E5525DA2218793B009FCE71 = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -633,11 +689,21 @@
 				4EF16A49221F6BEE00ECC087 /* 7. Categories */,
 				4E8728552224995E00B37794 /* 8.MemoryManagement(Manual) */,
 				4E8728672224B95800B37794 /* 9.ARC */,
+				4E0CCE712227B53200F57724 /* 10.Blocks */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4E0CCE6E2227B53200F57724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E0CCE7C2227B8CC00F57724 /* BlockTester.m in Sources */,
+				4E0CCE752227B53200F57724 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4E5525D72218793B009FCE71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -733,6 +799,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4E0CCE762227B53200F57724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E0CCE772227B53200F57724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4E5525E02218793B009FCE71 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1029,6 +1113,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4E0CCE782227B53200F57724 /* Build configuration list for PBXNativeTarget "10.Blocks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E0CCE762227B53200F57724 /* Debug */,
+				4E0CCE772227B53200F57724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4E5525D62218793B009FCE71 /* Build configuration list for PBXProject "ObjectiveC4D" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

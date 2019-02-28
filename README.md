@@ -1,5 +1,5 @@
 #  Objective-C For Developers Crash Course
-
+- [From Raywenderlich Obj-C Video Tutorials](https://www.youtube.com/watch?v=aBNoi271OXo&list=PL23Revp-82LLqM6azUAr9at03whFNL9Ld)
 ## Example Files (in-class)
 -----------
 ## 1. [Data Type - BOOL](./1.DT-BOOL)
@@ -20,3 +20,5 @@
 - [Notes](./8.MemoryManagement(Manual)/ManualMemoryManagement.md)
 ## 9. [ARC](./9.ARC)
 - [Notes](./9.ARC/ARC.md)
+## 10. [Blocks](./10.Blocks)
+- [Notes](./10.Blocks/Blocks.md)
