@@ -25,3 +25,7 @@
 - [Notes](./9.ARC/ARC.md)
 ## 10. [Blocks](./10.Blocks)
 - [Notes](./10.Blocks/Blocks.md)
+## 11. [Exception](./11.Exception)
+- [Notes](./11.Exception/HandlingExceptions.md)
+## 12. [Runtime](./12.Runtime)
+- [Notes](./12.Runtime/Runtime.md)
