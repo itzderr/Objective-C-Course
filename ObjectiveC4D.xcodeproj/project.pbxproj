@@ -23,6 +23,10 @@
 		4E87286B2224B95800B37794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E87286A2224B95800B37794 /* main.m */; };
 		4E8728722224BA8500B37794 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8728712224BA8500B37794 /* Person.m */; };
 		4E8728752224BA8D00B37794 /* Sweater.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E8728742224BA8D00B37794 /* Sweater.m */; };
+		4E9AFE612499F609008B9A86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9AFE602499F608008B9A86 /* main.m */; };
+		4E9AFE682499F79D008B9A86 /* Company.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9AFE672499F79D008B9A86 /* Company.m */; };
+		4E9AFE6B2499F913008B9A86 /* Candidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9AFE6A2499F913008B9A86 /* Candidate.m */; };
+		4E9AFE74249A064B008B9A86 /* Company+SecretHacker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9AFE73249A064B008B9A86 /* Company+SecretHacker.m */; };
 		4EF034F3242BDF7B00C3AD8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF034F2242BDF7B00C3AD8B /* main.m */; };
 		4EF16A1B221DDE7100ECC087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A1A221DDE7100ECC087 /* main.m */; };
 		4EF16A20221DE16F00ECC087 /* Bitmasks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF16A1F221DE16F00ECC087 /* Bitmasks.m */; };
@@ -100,6 +104,15 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		4E8728662224B95800B37794 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4E9AFE5C2499F608008B9A86 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -193,6 +206,15 @@
 		4E8728712224BA8500B37794 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		4E8728732224BA8D00B37794 /* Sweater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sweater.h; sourceTree = "<group>"; };
 		4E8728742224BA8D00B37794 /* Sweater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sweater.m; sourceTree = "<group>"; };
+		4E9AFE5E2499F608008B9A86 /* 12.Runtime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 12.Runtime; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9AFE602499F608008B9A86 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E9AFE652499F642008B9A86 /* Runtime.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Runtime.md; sourceTree = "<group>"; };
+		4E9AFE662499F79D008B9A86 /* Company.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Company.h; sourceTree = "<group>"; };
+		4E9AFE672499F79D008B9A86 /* Company.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Company.m; sourceTree = "<group>"; };
+		4E9AFE692499F913008B9A86 /* Candidate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Candidate.h; sourceTree = "<group>"; };
+		4E9AFE6A2499F913008B9A86 /* Candidate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Candidate.m; sourceTree = "<group>"; };
+		4E9AFE72249A064B008B9A86 /* Company+SecretHacker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Company+SecretHacker.h"; sourceTree = "<group>"; };
+		4E9AFE73249A064B008B9A86 /* Company+SecretHacker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Company+SecretHacker.m"; sourceTree = "<group>"; };
 		4EF034F0242BDF7B00C3AD8B /* Collections */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Collections; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EF034F2242BDF7B00C3AD8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4EF16A18221DDE7100ECC087 /* 4. Enum&Bitmasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4. Enum&Bitmasks"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -276,6 +298,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4E9AFE5B2499F608008B9A86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4EF034ED242BDF7B00C3AD8B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -351,6 +380,7 @@
 				4E0CCE732227B53200F57724 /* 10.Blocks */,
 				4E0CCE8222290C1500F57724 /* 11.Exception */,
 				4EF034F1242BDF7B00C3AD8B /* Collections */,
+				4E9AFE5F2499F608008B9A86 /* 12.Runtime */,
 				4E5525DC2218793B009FCE71 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -371,6 +401,7 @@
 				4E0CCE722227B53200F57724 /* 10.Blocks */,
 				4E0CCE8122290C1500F57724 /* 11.Exception */,
 				4EF034F0242BDF7B00C3AD8B /* Collections */,
+				4E9AFE5E2499F608008B9A86 /* 12.Runtime */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -435,6 +466,21 @@
 				4E8728742224BA8D00B37794 /* Sweater.m */,
 			);
 			path = 9.ARC;
+			sourceTree = "<group>";
+		};
+		4E9AFE5F2499F608008B9A86 /* 12.Runtime */ = {
+			isa = PBXGroup;
+			children = (
+				4E9AFE602499F608008B9A86 /* main.m */,
+				4E9AFE652499F642008B9A86 /* Runtime.md */,
+				4E9AFE662499F79D008B9A86 /* Company.h */,
+				4E9AFE672499F79D008B9A86 /* Company.m */,
+				4E9AFE692499F913008B9A86 /* Candidate.h */,
+				4E9AFE6A2499F913008B9A86 /* Candidate.m */,
+				4E9AFE72249A064B008B9A86 /* Company+SecretHacker.h */,
+				4E9AFE73249A064B008B9A86 /* Company+SecretHacker.m */,
+			);
+			path = 12.Runtime;
 			sourceTree = "<group>";
 		};
 		4EF034F1242BDF7B00C3AD8B /* Collections */ = {
@@ -632,6 +678,23 @@
 			productReference = 4E8728682224B95800B37794 /* 9.ARC */;
 			productType = "com.apple.product-type.tool";
 		};
+		4E9AFE5D2499F608008B9A86 /* 12.Runtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9AFE642499F609008B9A86 /* Build configuration list for PBXNativeTarget "12.Runtime" */;
+			buildPhases = (
+				4E9AFE5A2499F608008B9A86 /* Sources */,
+				4E9AFE5B2499F608008B9A86 /* Frameworks */,
+				4E9AFE5C2499F608008B9A86 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 12.Runtime;
+			productName = 12.Runtime;
+			productReference = 4E9AFE5E2499F608008B9A86 /* 12.Runtime */;
+			productType = "com.apple.product-type.tool";
+		};
 		4EF034EF242BDF7B00C3AD8B /* Collections */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4EF034F6242BDF7B00C3AD8B /* Build configuration list for PBXNativeTarget "Collections" */;
@@ -750,6 +813,9 @@
 					4E8728672224B95800B37794 = {
 						CreatedOnToolsVersion = 10.1;
 					};
+					4E9AFE5D2499F608008B9A86 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					4EF034EF242BDF7B00C3AD8B = {
 						CreatedOnToolsVersion = 11.4;
 					};
@@ -793,6 +859,7 @@
 				4E0CCE712227B53200F57724 /* 10.Blocks */,
 				4E0CCE8022290C1500F57724 /* 11.Exception */,
 				4EF034EF242BDF7B00C3AD8B /* Collections */,
+				4E9AFE5D2499F608008B9A86 /* 12.Runtime */,
 			);
 		};
 /* End PBXProject section */
@@ -865,6 +932,17 @@
 				4E8728722224BA8500B37794 /* Person.m in Sources */,
 				4E87286B2224B95800B37794 /* main.m in Sources */,
 				4E8728752224BA8D00B37794 /* Sweater.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E9AFE5A2499F608008B9A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9AFE612499F609008B9A86 /* main.m in Sources */,
+				4E9AFE682499F79D008B9A86 /* Company.m in Sources */,
+				4E9AFE6B2499F913008B9A86 /* Candidate.m in Sources */,
+				4E9AFE74249A064B008B9A86 /* Company+SecretHacker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1097,6 +1175,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25222AKG24;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1107,6 +1186,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25222AKG24;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1189,6 +1269,30 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25222AKG24;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E9AFE622499F609008B9A86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZTHY59Q97;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E9AFE632499F609008B9A86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QZTHY59Q97;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1377,6 +1481,15 @@
 			buildConfigurations = (
 				4E87286D2224B95800B37794 /* Debug */,
 				4E87286E2224B95800B37794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E9AFE642499F609008B9A86 /* Build configuration list for PBXNativeTarget "12.Runtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9AFE622499F609008B9A86 /* Debug */,
+				4E9AFE632499F609008B9A86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
