@@ -1,5 +1,8 @@
 #  Objective-C For Developers Crash Course
+
 - [From Raywenderlich Obj-C Video Tutorials](https://www.youtube.com/watch?v=aBNoi271OXo&list=PL23Revp-82LLqM6azUAr9at03whFNL9Ld)
+- [Apple Documentation](https://developer.apple.com/)
+
 ## Example Files (in-class)
 -----------
 ## 1. [Data Type - BOOL](./1.DT-BOOL)

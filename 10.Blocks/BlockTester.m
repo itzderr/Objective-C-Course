@@ -43,15 +43,16 @@
 
 - (void) runTest4 {
 	// MARK: 5. retain cycle
-//	__weak BlockTester *this = self;
+	__weak BlockTester *this = self;
 	[self goPlaySoccerWithBlock:^(NSString * _Nonnull player) {
-		[self party];
+		[this party];
 	}];
 }
 
 - (void) goPlaySoccerWithBlock:(void (^)(NSString *player)) block {
 	// MARK: 4. Calling a block passed as a parameter
 	self.block = block;
+	
 	[self performSelector:@selector(pickPlayer)];
 }
 
