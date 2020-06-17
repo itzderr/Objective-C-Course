@@ -43,16 +43,16 @@
 
 - (void) runTest4 {
 	// MARK: 5. retain cycle
-	__weak BlockTester *this = self;
+	__weak BlockTester *weakSelf = self;
+//  __weak typeof(self) *weakSelf = self;
 	[self goPlaySoccerWithBlock:^(NSString * _Nonnull player) {
-		[this party];
+		[weakSelf party:player];
 	}];
 }
 
 - (void) goPlaySoccerWithBlock:(void (^)(NSString *player)) block {
 	// MARK: 4. Calling a block passed as a parameter
 	self.block = block;
-	
 	[self performSelector:@selector(pickPlayer)];
 }
 
@@ -62,8 +62,8 @@
 	self.block(names[index]);
 }
 
-- (void) party {
-	NSLog(@"Yeah!");
+- (void) party:(NSString *)player {
+	NSLog(@"Yeah! Partying with %@", player);
 }
 
 - (void)dealloc {
