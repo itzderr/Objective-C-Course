@@ -49,6 +49,18 @@ int main(int argc, const char * argv[]) {
     [google shouldHire:candidate1];
     NSLog(@"%lu", [google.employees count]);
     
+    // public property?
+    objc_property_t prop = class_getProperty([google class], "employees");
+    const char *attributes = property_getAttributes(prop);
+    printf("%s\n", attributes);
+    
+    // log the methods in Company dynamically
+    unsigned int count;
+    Method *methods = class_copyMethodList([google class], &count);
+    printf("%d\n", count);
+    for (int i = 0; i < count; ++i) {
+      printf("%s\n", sel_getName(method_getName(*(methods++))));
+    }
   }
   return 0;
 }
